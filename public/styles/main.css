@@ -1,0 +1,50 @@
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/roboto */
+@import "http://fonts.fontstorage.com/import/roboto.css";
+/*
+	Roboto, 100, 100 italic, 300, 300 italic, 400, 400 italic, 500, 500 italic, 700, 700 italic, 900, 900 italic
+*/
+
+body{
+    margin: 0;
+    font-family: 'roboto',sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+}
+.leave{
+    margin-left: auto;
+}
+.contentAdm{
+    width: 1100px;
+    min-height: 100vh;
+    background-color: white;
+    margin: auto;
+
+}
+.adminButton{
+    height: 40px;
+    min-width: 300px;
+    font-size: 25px;
+    text-align: center;
+}
+.lItem{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid darkgrey;
+}
+h3{
+    font-size: 30px;
+}
+.paramTable{
+    width: 100%;
+    table-layout : fixed;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid darkgrey;
+    height: 30px;
+    font-size: 18px;
+    vertical-align: middle;
+}
